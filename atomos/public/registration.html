@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Form</title>
+</head>
+
+<style>
+    div#accordionExample {
+        margin: 0px 201px;
+    }
+
+    button.submitBTN.btn.btn-primary {
+        padding: 30px 0px;
+        width: 100%;
+        margin: 25px 0px;
+    }
+</style>
+
+<body>
+    <h1 style="    text-align: center;
+        padding: 38px;">Registration Form</h1>
+
+    <form action="https://app.headlessforms.cloud/api/v1/form-submission/IKEQWsN0YW" method="POST">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Team Lead Information
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <!-- Name:
+• Email:
+• Institute Name:
+• CNIC No.:
+• Phone No:
+• Upload picture: -->
+                        <div class="form-group" style="width: 50%;">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email">
+                            <label for="institute">Institute Name</label>
+                            <input type="text" class="form-control" id="institute" name="institute"
+                                placeholder="Enter Institute Name">
+                            <label for="cnic">CNIC No.</label>
+                            <input type="text" class="form-control" id="cnic" name="cnic" placeholder="Enter CNIC No.">
+                            <label for="phone">Phone No.</label>
+                            <input type="text" class="form-control" id="phone" name="phone"
+                                placeholder="Enter Phone No.">
+                            <label for="picture">Picture (Provide a Drive Link)</label>
+                            <input type="text" class="form-control" id="picture" name="picture"
+                                placeholder="Enter Drive Link">
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Team Member #2 Information
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <label for="name2">Name</label>
+                            <input type="text" class="form-control" id="name2" name="name2" placeholder="Enter Name">
+                            <label for="email2">Email</label>
+                            <input type="email" class="form-control" id="email2" name="email2"
+                                placeholder="Enter Email">
+                            <label for="institute2">Institute Name</label>
+                            <input type="text" class="form-control" id="institute2" name="institute2"
+                                placeholder="Enter Institute Name">
+                            <label for="cnic2">CNIC No.</label>
+                            <input type="text" class="form-control" id="cnic2" name="cnic2"
+                                placeholder="Enter CNIC No.">
+                            <label for="picture2">Picture (Provide a Drive Link)</label>
+                            <input type="text" class="form-control" id="picture2" name="picture2"
+                                placeholder="Enter Drive Link">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Team Member #3 Information
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <label for="name3">Name</label>
+                            <input type="text" class="form-control" id="name3" name="name3" placeholder="Enter Name">
+                            <label for="email3">Email</label>
+                            <input type="email" class="form-control" id="email3" name="email3"
+                                placeholder="Enter Email">
+                            <label for="institute3">Institute Name</label>
+                            <input type="text" class="form-control" id="institute3" name="institute3"
+                                placeholder="Enter Institute Name">
+                            <label for="cnic3">CNIC No.</label>
+                            <input type="text" class="form-control" id="cnic3" name="cnic3"
+                                placeholder="Enter CNIC No.">
+                            <label for="picture3">Picture (Provide a Drive Link)</label>
+                            <input type="text" class="form-control" id="picture3" name="picture3"
+                                placeholder="Enter Drive Link">
+                        </div>
+                    </div>
+                </div>
+                <!-- make for member #4 -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Team Member #4 Information
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <label for="name4">Name</label>
+                            <input type="text" class="form-control" id="name4" name="name4" placeholder="Enter Name">
+                            <label for="email4">Email</label>
+                            <input type="email" class="form-control" id="email4" name="email4"
+                                placeholder="Enter Email">
+                            <label for="institute4">Institute Name</label>
+                            <input type="text" class="form-control" id="institute4" name="institute4"
+                                placeholder="Enter Institute Name">
+                            <label for="cnic4">CNIC No.</label>
+                            <input type="text" class="form-control" id="cnic4" name="cnic4"
+                                placeholder="Enter CNIC No.">
+                            <label for="picture4">Picture (Provide a Drive Link)</label>
+                            <input type="text" class="form-control" id="picture4" name="picture4"
+                                placeholder="Enter Drive Link">
+                        </div>
+                    </div>
+                </div>
+                <!-- make for member #5 -->
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Team Member #5 Information
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <label for="name5">Name</label>
+                            <input type="text" class="form-control" id="name5" name="name5" placeholder="Enter Name">
+                            <label for="email5">Email</label>
+                            <input type="email" class="form-control" id="email5" name="email5"
+                                placeholder="Enter Email">
+                            <label for="institute5">Institute Name</label>
+                            <input type="text" class="form-control" id="institute5" name="institute5"
+                                placeholder="Enter Institute Name">
+                            <label for="cnic5">CNIC No.</label>
+                            <input type="text" class="form-control" id="cnic5" name="cnic5"
+                                placeholder="Enter CNIC No.">
+                            <label for="picture5">Picture (Provide a Drive Link)</label>
+                            <input type="text" class="form-control" id="picture5" name="picture5"
+                                placeholder="Enter Drive Link">
+                        </div>
+                    </div>
+                </div>
+                <!-- make for member #6 -->
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Team Member #6 Information
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <label for="name6">Name</label>
+                            <input type="text" class="form-control" id="name6" name="name6" placeholder="Enter Name">
+                            <label for="email6">Email</label>
+                            <input type="email" class="form-control" id="email6" name="email6"
+                                placeholder="Enter Email">
+                            <label for="institute6">Institute Name</label>
+                            <input type="text" class="form-control" id="institute6" name="institute6"
+                                placeholder="Enter Institute Name">
+                            <label for="cnic6">CNIC No.</label>
+                            <input type="text" class="form-control" id="cnic6" name="cnic6"
+                                placeholder="Enter CNIC No.">
+                            <label for="picture6">Picture (Provide a Drive Link)</label>
+                            <input type="text" class="form-control" id="picture6" name="picture6"
+                                placeholder="Enter Drive Link">
+                        </div>
+                    </div>
+                </div>
+                <!-- make for member #7 -->
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Team Member #7 Information
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <label for="name7">Name</label>
+                            <input type="text" class="form-control" id="name7" name="name7" placeholder="Enter Name">
+                            <label for="email7">Email</label>
+                            <input type="email" class="form-control" id="email7" name="email7"
+                                placeholder="Enter Email">
+                            <label for="institute7">Institute Name</label>
+                            <input type="text" class="form-control" id="institute7" name="institute7"
+                                placeholder="Enter Institute Name">
+                            <label for="cnic7">CNIC No.</label>
+                            <input type="text" class="form-control" id="cnic7" name="cnic7"
+                                placeholder="Enter CNIC No.">
+                            <label for="picture7">Picture (Provide a Drive Link)</label>
+                            <input type="text" class="form-control" id="picture7" name="picture7"
+                                placeholder="Enter Drive Link">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading8">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                Reference
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <label for="reference">Name the institute representative or the brand ambassador
+                                here</label>
+                            <input type="text" class="form-control" id="reference" name="reference"
+                                placeholder="Enter reference">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading9">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                Choose Modules
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
+                        <div class="card-body">
+
+                            <label for="Category1">Sciences</label>
+                            <select class="form-control" id="Category1" name="Category1">
+                                <option value="Kashish - e - Khla">Kashish - e - Khla</option>
+                                <option value="Reyaziat">Reyaziat</option>
+                                <option value="Elixir Vitae">Elixir Vitae</option>
+                                <option value="Theodosius Apoptosis">Theodosius Apoptosis</option>
+                            </select>
+                            <label for="Category2">Engineering</label>
+                            <select class="form-control" id="Category2" name="Category2">
+                                <option value="Autobot">Autobot</option>
+                                <option value="TronCity">TronCity</option>
+                                <option value="Trojan Construe">Trojan Construe</option>
+                                <option value="Codedash">Codedash</option>
+                            </select>
+                            <label for="Category3">General</label>
+                            <select class="form-control" id="Category3" name="Category3">
+                                <option value="Kryptos Chamber">Kryptos Chamber</option>
+                                <option value="Six Feet Under">Six Feet Under</option>
+                                <option value="Multiverse">Multiverse</option>
+                                <option value="Eco-lution">Eco-lution</option>
+                            </select>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+            <center>
+                <button class="submitBTN btn btn-primary">Submit</button>
+            </center>
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
