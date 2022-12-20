@@ -17,25 +17,13 @@ function faqs() {
       <Accordion.Item eventKey="0">
         <Accordion.Header className={style.accordionHead}>What is ATOMOS?</Accordion.Header>
         <Accordion.Body className={style.accordionBody}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          ATOMOS is Habib University's flagship Science Olympiad that is back with a new twist. ATOMOS covers a wide variety of subjects which are not just limited to the field of science. This event is structured to have individual modules having their background from one or multiple streams which include but are not limited to the Natural Sciences, Mathematics, Arts, Logic, Engineering, and Programming. The 3-day event is planned to take place on February 3rd, 4th and 5th.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header className={style.accordionHead}>How does it work?</Accordion.Header>
+        <Accordion.Header className={style.accordionHead}>How many team members can be there in a team?</Accordion.Header>
         <Accordion.Body className={style.accordionBody}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          There can be 5 to 7 members in each team
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
