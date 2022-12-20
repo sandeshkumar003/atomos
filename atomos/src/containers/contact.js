@@ -41,7 +41,7 @@ function ContactScreen() {
           </h3>
          
           
-          <p className={style.desc}>+92334-XXXXXXX</p>
+          <p className={style.desc}>0322-2973296</p>
           
           <h3 className={style.addressHeading}><FontAwesomeIcon icon={faSquareEnvelope} />
              &nbsp; Email
