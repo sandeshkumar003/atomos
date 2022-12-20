@@ -32,7 +32,7 @@ function modules() {
             <Card.Img variant="top" src={Astronomy} className={style.logo} />
             <Card.Body className={style.cardElements}>
               <Card.Title>KASHISH-E-KHLA</Card.Title>
-              <Card.Text className={style.desc}>
+              <Card.Text className={style.desc{ color: 'black' }}>
                 Do you marvel at the moon and stars in the night sky? Were you
                 ever taken aback by the beauty of the universe, when you first
                 saw the photographs from the James Webb Space Telescope? If so,
@@ -44,9 +44,7 @@ function modules() {
                 then this is the module for you! Join us, for an intriguing
                 excursion to the sky, universe and beyond.
               </Card.Text>
-                {/*<Button variant="primary" className={style.button}>
-                Learn More
-              </Button>/}
+                
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -61,9 +59,7 @@ function modules() {
                 devices, has a liking for technical details and is brave enough
                 to take the immediate measures then register for Elixir Vitae.
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -82,9 +78,7 @@ function modules() {
                 apoptosis off this biollercoaster! Register now and don't let
                 your spines hold you back!
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -100,9 +94,7 @@ function modules() {
                 motive. Get caught up in the red herrings and you’ll be
                 deviously misled in this exquisite instance of betrayal.
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+        
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -118,9 +110,7 @@ function modules() {
                 best have what it takes to fight; heroes! At midnight, we take
                 them all on!
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -135,9 +125,7 @@ function modules() {
                 combined with your intuitions to solve the mysteries. With us,
                 be prepared to be riddled!
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -152,9 +140,7 @@ function modules() {
                 present electrifying solutions and fret not, the world of
                 circuits awaits!
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -170,9 +156,7 @@ function modules() {
                 We believe in the power of robotics to transform our lives and
                 the future of our planet.
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -189,9 +173,7 @@ function modules() {
                 rigorously. If mathematics fascinates you, then this is the
                 module for you.
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -205,9 +187,7 @@ function modules() {
                 are you up for the challenge? A chance to bring your idea to
                 life!
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -227,9 +207,7 @@ function modules() {
                 reasoning ability but also allows you to expand your policy
                 knowledge.
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
@@ -243,9 +221,7 @@ function modules() {
                 experience you need for speed programming, which fosters
                 creativity and pushes you out of your comfort zone.
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+              
             </Card.Body>
           </Card>
         </div>
