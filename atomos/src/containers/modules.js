@@ -32,7 +32,7 @@ function modules() {
             <Card.Img variant="top" src={Astronomy} className={style.logo} />
             <Card.Body className={style.cardElements}>
               <Card.Title>KASHISH-E-KHLA</Card.Title>
-              <Card.Text className={style.desc{ color: 'black' }}>
+              <Card.Text className={style.desc}>
                 Do you marvel at the moon and stars in the night sky? Were you
                 ever taken aback by the beauty of the universe, when you first
                 saw the photographs from the James Webb Space Telescope? If so,
