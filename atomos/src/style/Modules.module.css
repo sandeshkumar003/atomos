@@ -57,13 +57,14 @@
 
 
 .logo {
-    width: 25%;
+width: 25%;
     height: 200px;
     margin: auto;
+    background-color: rgba(29, 28, 28, 0.7);
 }
 
 .desc {
-    color: white;
+    color: black;
     margin: 0 8%;
     margin-top: 5%;
     margin-bottom: 7%;
@@ -97,10 +98,18 @@
 }
 
 
+@media screen and (min-width: 800px) {
+    .logo {
+        max-width: 25%;
+    }
+
+}
+
+
 @media screen and (max-width: 600px) {
 
     .logo {
-        width: 45%;
+        min-width: 40%;
     }
 
     .nameLogo {

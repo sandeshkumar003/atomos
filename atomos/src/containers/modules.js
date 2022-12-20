@@ -29,7 +29,7 @@ function modules() {
         </div>
         <div>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Astronomy} className={style.logo} />
+            <Card.Img variant="top" src={Astronomy} className={style.logo} style={{ backgroundColor: "#FFBE64" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>KASHISH-E-KHLA</Card.Title>
               <Card.Text className={style.desc}>
@@ -44,11 +44,11 @@ function modules() {
                 then this is the module for you! Join us, for an intriguing
                 excursion to the sky, universe and beyond.
               </Card.Text>
-                
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Chemistry} className={style.logo} />
+            <Card.Img variant="top" src={Chemistry} className={style.logo} style={{ backgroundColor: "#97426A" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>ELIXIR VITAE</Card.Title>
               <Card.Text className={style.desc}>
@@ -59,11 +59,11 @@ function modules() {
                 devices, has a liking for technical details and is brave enough
                 to take the immediate measures then register for Elixir Vitae.
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Biology} className={style.logo} />
+            <Card.Img variant="top" src={Biology} className={style.logo} style={{ backgroundColor: "#35503B" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>THEODOSIUS APOPTOSIS</Card.Title>
               <Card.Text className={style.desc}>
@@ -78,11 +78,11 @@ function modules() {
                 apoptosis off this biollercoaster! Register now and don't let
                 your spines hold you back!
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={CSI} className={style.logo} />
+            <Card.Img variant="top" src={CSI} className={style.logo} style={{ backgroundColor: "#CDA693" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>SIX FEET UNDER</Card.Title>
               <Card.Text className={style.desc}>
@@ -94,11 +94,11 @@ function modules() {
                 motive. Get caught up in the red herrings and you’ll be
                 deviously misled in this exquisite instance of betrayal.
               </Card.Text>
-        
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Multiverse} className={style.logo} />
+            <Card.Img variant="top" src={Multiverse} className={style.logo} style={{ backgroundColor: "#16356D" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>MULTIVERSE</Card.Title>
               <Card.Text className={style.desc}>
@@ -110,11 +110,11 @@ function modules() {
                 best have what it takes to fight; heroes! At midnight, we take
                 them all on!
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={EscapeRoom} className={style.logo} />
+            <Card.Img variant="top" src={EscapeRoom} className={style.logo} style={{ backgroundColor: "#965473" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>KRYPTOS CHAMBER</Card.Title>
               <Card.Text className={style.desc}>
@@ -125,11 +125,11 @@ function modules() {
                 combined with your intuitions to solve the mysteries. With us,
                 be prepared to be riddled!
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Electricity} className={style.logo} />
+            <Card.Img variant="top" src={Electricity} className={style.logo} style={{ backgroundColor: "#52C1C1" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>TRONCITY</Card.Title>
               <Card.Text className={style.desc}>
@@ -140,11 +140,11 @@ function modules() {
                 present electrifying solutions and fret not, the world of
                 circuits awaits!
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Robotics} className={style.logo} />
+            <Card.Img variant="top" src={Robotics} className={style.logo} style={{ backgroundColor: "#19687A" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>AUTOBOT</Card.Title>
               <Card.Text className={style.desc}>
@@ -156,11 +156,11 @@ function modules() {
                 We believe in the power of robotics to transform our lives and
                 the future of our planet.
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Maths} className={style.logo} />
+            <Card.Img variant="top" src={Maths} className={style.logo} style={{ backgroundColor: "#89878A" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>Reyaziat</Card.Title>
               <Card.Text className={style.desc}>
@@ -173,11 +173,11 @@ function modules() {
                 rigorously. If mathematics fascinates you, then this is the
                 module for you.
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={Construction} className={style.logo} />
+            <Card.Img variant="top" src={Construction} className={style.logo} style={{ backgroundColor: "#9458A4" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>TROJAN CONSTRUE</Card.Title>
               <Card.Text className={style.desc}>
@@ -187,14 +187,14 @@ function modules() {
                 are you up for the challenge? A chance to bring your idea to
                 life!
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
             <Card.Img
               variant="top"
               src={Sustainibility}
-              className={style.logo}
+              className={style.logo} style={{ backgroundColor: "#437955" }}
             />
             <Card.Body className={style.cardElements}>
               <Card.Title>ECO-LUTION</Card.Title>
@@ -207,11 +207,11 @@ function modules() {
                 reasoning ability but also allows you to expand your policy
                 knowledge.
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
-            <Card.Img variant="top" src={CS} className={style.logo} />
+            <Card.Img variant="top" src={CS} className={style.logo} style={{ backgroundColor: "#8391C8" }} />
             <Card.Body className={style.cardElements}>
               <Card.Title>CODEDASH</Card.Title>
               <Card.Text className={style.desc}>
@@ -221,7 +221,7 @@ function modules() {
                 experience you need for speed programming, which fosters
                 creativity and pushes you out of your comfort zone.
               </Card.Text>
-              
+
             </Card.Body>
           </Card>
         </div>
