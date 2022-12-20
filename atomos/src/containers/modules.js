@@ -44,9 +44,9 @@ function modules() {
                 then this is the module for you! Join us, for an intriguing
                 excursion to the sky, universe and beyond.
               </Card.Text>
-              //<Button variant="primary" className={style.button}>
-               // Learn More
-              //</Button>
+                {/*<Button variant="primary" className={style.button}>
+                Learn More
+              </Button>/}
             </Card.Body>
           </Card>
           <Card className={style.cardStyles}>
