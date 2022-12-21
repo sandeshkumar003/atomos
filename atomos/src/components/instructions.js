@@ -16,10 +16,14 @@ function Instructions() {
         <>
             {/* {values.map((v, idx) => ( */}
             <Button className="me-2 mb-2" onClick={() => handleShow('sm-down')}>
-                SHOW INSTRUCTIONS
+                INSTRUCTIONS
                 {/* Full screen
                     {typeof v === 'string' && `below ${v.split('-')[0]}`} */}
             </Button>
+
+            {/* <Button variant="dark" size='lg' onClick={registerUser}>Register</Button> */}
+
+
             {/* ))} */}
             <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
                 <Modal.Header closeButton>
@@ -27,7 +31,7 @@ function Instructions() {
                 </Modal.Header>
                 <Modal.Body>Instructions body content
 
-                    <ol style={{fontSize:14 }}>
+                    <ol style={{ fontSize: 14 }}>
 
                         <li>A team can be of 5 to 7 members including the team lead.</li>
                         <li>A team will have participate in 5 modules.</li>

@@ -6,6 +6,7 @@ import { MdEmail as Email } from 'react-icons/md';
 import { BsFacebook as Fb } from 'react-icons/bs';
 import { AiFillInstagram as Ig } from "react-icons/ai";
 import { BsFillTelephoneFill as Phone } from 'react-icons/bs';
+import Button from 'react-bootstrap/Button';
 
 
 function RegisterScreen() {
@@ -15,8 +16,13 @@ function RegisterScreen() {
 
       <div className={style.registerbuttons}>
         <Instructions />
-        <a href="registration.html" target="blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">REGISTER NOW!</a>
+
+        <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button>
+
+
+        {/* <a href="registration.html" target="blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">REGISTER NOW!</a> */}
       </div>
+
       <div className={style.bottomLinks}>
         <IconContext.Provider
           value={{ color: 'black', size: '30px' }}
