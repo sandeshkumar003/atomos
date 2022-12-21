@@ -34,18 +34,18 @@
     color: white;
     /* display: flex; */
     /* flex-direction: column; */
+    border: none;
     align-items: left;
 }
-
 .cardStyles {
+    border: none;
     display: flex;
     flex-direction: row;
     width: 80%;
     background: none;
-    border: none;
     margin-left: 10%;
-    margin-right: 5%;
     margin-bottom: 10%;
+    border-radius: 20%;
 }
 
 
@@ -57,10 +57,12 @@
 
 
 .logo {
-width: 25%;
+    margin-top: 10px;
+    width: 25%;
     height: 200px;
     margin: auto;
     background-color: rgba(29, 28, 28, 0.7);
+    border-radius: 7px;
 }
 
 .desc {
@@ -83,8 +85,6 @@ width: 25%;
 
     opacity: 1;
 }
-
-
 
 
 .bottomIcon {

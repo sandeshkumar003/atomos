@@ -41,12 +41,12 @@ function ContactScreen() {
           </h3>
          
           
-          <p className={style.desc}>0322-2973296</p>
+          <p className={style.sampleDesc}>0322-2973296</p>
           
           <h3 className={style.addressHeading}><FontAwesomeIcon icon={faSquareEnvelope} />
              &nbsp; Email
           </h3>
-          <p className={style.desc}>atomos@habib.edu.pk</p>
+          <p className={style.sampleDesc}>atomos@habib.edu.pk</p>
         </div>
         </div>
         
