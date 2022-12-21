@@ -17,7 +17,7 @@ function RegisterScreen() {
       <div className={style.registerbuttons}>
         <Instructions />
 
-        <Button variant="dark" size='lg' onClick={() => window.open(".../public/registration.html", "_blank")}>Launch Registeration</Button>
+        <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button>
 
 
         {/* <a href="registration.html" target="blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">REGISTER NOW!</a> */}
