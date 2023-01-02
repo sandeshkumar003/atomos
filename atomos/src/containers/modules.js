@@ -5,7 +5,7 @@ import { BsFacebook as Fb } from "react-icons/bs";
 import { AiFillInstagram as Ig } from "react-icons/ai";
 import { BsFillTelephoneFill as Phone } from "react-icons/bs";
 import style from "../style/Modules.module.css";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Chemistry from "../assets/FINALCHEM.png";
 import Biology from "../assets/BIO.png";

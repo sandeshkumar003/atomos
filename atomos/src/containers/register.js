@@ -1,23 +1,36 @@
 import React from 'react';
-import style from "../style/Home.module.css";
+import style from "../style/Register.module.css";
 import Instructions from '../components/instructions';
 import { IconContext } from 'react-icons';
 import { MdEmail as Email } from 'react-icons/md';
 import { BsFacebook as Fb } from 'react-icons/bs';
 import { AiFillInstagram as Ig } from "react-icons/ai";
 import { BsFillTelephoneFill as Phone } from 'react-icons/bs';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 
 function RegisterScreen() {
+
   return (
     <div className={style.main}>
       {/* <h1>Register</h1> */}
 
+      <div className={style.form}>
+
+
+
+        <iframe data-tally-src="https://tally.so/embed/wM1M4E?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0"
+          title="Registration form"></iframe>
+
+      </div>
+
+
+
       <div className={style.registerbuttons}>
         <Instructions />
 
-        <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button>
+        {/* <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button> */}
 
 
         {/* <a href="registration.html" target="blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">REGISTER NOW!</a> */}

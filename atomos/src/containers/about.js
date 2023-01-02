@@ -2,7 +2,7 @@ import atomosLogo from "../assets/atomos.png";
 import atomosNameLogo from "../assets/atomos-name.png";
 import csecLogo from "../assets/csec.png";
 import csecNameLogo from "../assets/csec-name.png";
-import nscLogo from "../assets/nsclogo.png";
+// import nscLogo from "../assets/nsclogo.png";
 // import nsclogo1 from '../assets/nsclogo4.png';
 
 import { IconContext } from "react-icons";
