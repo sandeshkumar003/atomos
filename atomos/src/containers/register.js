@@ -6,35 +6,67 @@ import { MdEmail as Email } from 'react-icons/md';
 import { BsFacebook as Fb } from 'react-icons/bs';
 import { AiFillInstagram as Ig } from "react-icons/ai";
 import { BsFillTelephoneFill as Phone } from 'react-icons/bs';
-// import Button from 'react-bootstrap/Button';
+import Carousel from 'react-bootstrap/Carousel';
+import ba from "../assets/reg-fee.png";
+import { Button } from 'react-bootstrap';
 
 
 function RegisterScreen() {
+
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   // script.async = true;
+  //   script.src = "../form.js";
+  //   script.onload = () => this.scriptLoaded();
+  //   document.body.appendChild(script);
+  // });
+
+  // useEffect(() => {
+  //   alert("If the form doesn't load by itself. Reload the page.");
+  // });
 
   return (
     <div className={style.main}>
       {/* <h1>Register</h1> */}
 
-      <div className={style.form}>
+      {/* <div className={style.form}> */}
+      <div>
 
 
+        {/* <iframe data-tally-src="https://tally.so/embed/wM1M4E?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="eager" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0"
+          title="Registration form"></iframe> */}
+        <div className="slider-div">
+          <Carousel controls={false} indicators={false}>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={ba}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button>
+                <br />
+                <Instructions />
 
-        <iframe data-tally-src="https://tally.so/embed/wM1M4E?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-          loading="lazy" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0"
-          title="Registration form"></iframe>
+              </Carousel.Caption>
+
+            </Carousel.Item>
+
+          </Carousel>
+        </div>
 
       </div>
 
 
 
-      <div className={style.registerbuttons}>
+      {/* <div className={style.registerbuttons}>
         <Instructions />
+        <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button>
 
-        {/* <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button> */}
 
 
-        {/* <a href="registration.html" target="blank" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">REGISTER NOW!</a> */}
-      </div>
+      </div> */}
 
       <div className={style.bottomLinks}>
         <IconContext.Provider

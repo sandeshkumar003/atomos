@@ -1,19 +1,12 @@
 import logo from '../assets/main-logo.png';
-// import nameLogo from '../assets/name-logo.jpeg';
-// import fb from "../assets/fb.png";
 import React from 'react';
-
-
 import { IconContext } from 'react-icons';
-
 import { MdEmail as Email } from 'react-icons/md';
 import { BsFacebook as Fb } from 'react-icons/bs';
 import { AiFillInstagram as Ig } from "react-icons/ai";
 import { BsFillTelephoneFill as Phone } from 'react-icons/bs';
-// import { Button } from "react-responsive-button";
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
-// import "react-responsive-button/dist/index.css";
 import style from "../style/Home.module.css";
 
 

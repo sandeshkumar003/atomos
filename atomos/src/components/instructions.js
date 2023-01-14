@@ -72,7 +72,7 @@ function Instructions() {
                         <li>The team lead must check their email for payment details soon after they fill the registration form.</li>
                         <li>The registration will be finalized once the team uploads their paymet confirmation receipt on the account
                             portal/ emails the receipt at <i>atomos@habib.edu.pk</i></li>
-                        <li>The form entries will be saved to complete it later on, hence the team must fill the form at once.</li>
+                        <li>The form entries will not be saved to complete it later on, hence the team must fill the form at once.</li>
                     </ol>
 
                 </Modal.Body>
