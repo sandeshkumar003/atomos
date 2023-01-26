@@ -48,10 +48,13 @@ function NavbarComponent() {
 
                         <NavDropdown title="Register" id="collasible-nav-dropdown">
                             <NavDropdown.Item onClick={() => { navigateScreen("/register") }}>Team</NavDropdown.Item>
-
-                            <NavDropdown.Divider />
                             <NavDropdown.Item onClick={() => { navigateScreen("/brand-ambassador") }}>
                                 Brand Ambasssador
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+
+                            <NavDropdown.Item href='https://forms.gle/KUb8pjf2ujB31kjeA' target="_blank">
+                                Scholarship
                             </NavDropdown.Item>
                             {/* <NavDropdown.Divider /> */}
                             {/* 
