@@ -9,6 +9,8 @@ import { BsFillTelephoneFill as Phone } from 'react-icons/bs';
 import Carousel from 'react-bootstrap/Carousel';
 import ba from "../assets/reg-fee.png";
 import { Button } from 'react-bootstrap';
+import fee1 from "../assets/fee1.png";
+import fee2 from "../assets/fee2.png";
 
 
 function RegisterScreen() {
@@ -37,11 +39,25 @@ function RegisterScreen() {
           loading="eager" width="100%" height="200" frameborder="0" marginheight="0" marginwidth="0"
           title="Registration form"></iframe> */}
         <div className="slider-div">
-          <Carousel controls={false} indicators={false}>
+          <Carousel>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={ba}
+                src={fee2}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <Button variant="dark" size='lg' onClick={() => window.open("./registration.html", "_blank")}>Launch Registeration</Button>
+                <br />
+                <Instructions />
+
+              </Carousel.Caption>
+
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={fee1}
                 alt="First slide"
               />
               <Carousel.Caption>
