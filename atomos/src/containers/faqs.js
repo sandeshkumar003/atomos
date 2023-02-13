@@ -17,7 +17,7 @@ function faqs() {
       <Accordion.Item eventKey="0">
         <Accordion.Header className={style.accordionHead}>What is ATOMOS?</Accordion.Header>
         <Accordion.Body className={style.accordionBody}>
-          ATOMOS is Habib University's flagship Science Olympiad that is back with a new twist. ATOMOS covers a wide variety of subjects which are not just limited to the field of science. This event is structured to have individual modules having their background from one or multiple streams which include but are not limited to the Natural Sciences, Mathematics, Arts, Logic, Engineering, and Programming. The 3-day event is planned to take place on February 3rd, 4th and 5th.
+          ATOMOS is Habib University's flagship Science Olympiad that is back with a new twist. ATOMOS covers a wide variety of subjects which are not just limited to the field of science. This event is structured to have individual modules having their background from one or multiple streams which include but are not limited to the Natural Sciences, Mathematics, Arts, Logic, Engineering, and Programming. The 3-day event is planned to take place on March 3rd, 4th and 5th.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">

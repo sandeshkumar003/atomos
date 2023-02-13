@@ -32,7 +32,7 @@ function AboutScreen() {
             to have individual modules with background from one or multiple
             streams which include Natural Sciences, Mathematics, Arts, Logic,
             Engineering, and Programming. The event is scheduled to take place
-            on February 3rd, 4th and 5th.
+            on March 3rd, 4th and 5th.
           </p>
         </div>
 
